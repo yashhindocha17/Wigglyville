@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PugDog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="#D2E1D7"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/bulldog_img"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="151dp"
+            android:src="@drawable/puppy_pug"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:text="The Pug is a breed of toy dog that has a short black muzzle and a tightly curled tail. It is a squarely built muscular dog with a large head, prominent dark eyes, and small drooping ears. The breed was introduced to England by Dutch traders near the end of the 17th century" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="SEX:                   Male\n\n\nWeight:              14-18 pounds\n\n\nAvarage Life:    13-15 years " />
+
+        <Button
+            android:id="@+id/buttonbuy"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BUY" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

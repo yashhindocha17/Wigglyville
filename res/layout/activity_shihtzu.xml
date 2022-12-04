@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shihtzu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="#D2E1D7"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/bulldog_img"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="151dp"
+        android:src="@drawable/shih_tzu"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:text="Shih Tzu, Tibetan dog breed developed from the Pekingese and the Lhasa Apso. Listed in the toy group by the American Kennel Club, the Shih Tzu, called in Chinese shih-tzu kou (“lion dog”; Pinyin shizi gou), is a longhaired, characteristically active and alert little dog." />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="SEX:                   Male\n\n\nWeight:              9-16 pounds \n\n\nAvarage Life:    10-18 years " />
+
+        <Button
+        android:id="@+id/buttonbuy"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BUY" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
